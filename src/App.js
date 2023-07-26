@@ -10,6 +10,8 @@ import SegmentComp from "./SegmentComp";
 // import SeasonIndex from "./Season/Index";
 // pics App
 import PicsApp from "./component/Pics App/PicsApp";
+// Videos App
+import VideoApp from "../src/component/videosApp/VideoApp";
 
 function App() {
   return (
@@ -52,7 +54,8 @@ function App() {
 
       {/* Season App -> */}
       {/* <SeasonIndex /> */}
-      <PicsApp />
+      {/* <PicsApp /> */}
+      <VideoApp />
     </div>
   );
 }
