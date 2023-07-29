@@ -12,6 +12,8 @@ import SegmentComp from "./SegmentComp";
 import PicsApp from "./component/Pics App/PicsApp";
 // Videos App
 import VideoApp from "../src/component/videosApp/VideoApp";
+// Webget App
+import WebgetApp from "./component/Widget App/WebgetApp";
 
 function App() {
   return (
@@ -55,7 +57,8 @@ function App() {
       {/* Season App -> */}
       {/* <SeasonIndex /> */}
       {/* <PicsApp /> */}
-      <VideoApp />
+      {/* <VideoApp /> */}
+      <WebgetApp />
     </div>
   );
 }
